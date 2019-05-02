@@ -32,7 +32,7 @@ if(//here the data is checked weather it is empty or not
     }
  
     else{
-        echo json_encode(array("message" => "Unable to create product."));
+        echo json_encode(array("message" => "Unable to update product."));
     }
 }
  

@@ -29,7 +29,7 @@ if(
   
     if($product->create()){
  
-        echo json_encode(array("message" => "Product is created."));
+        echo json_encode(array("message" => "student is created."));
         
     }
  
@@ -39,7 +39,7 @@ if(
       
  
         // tell the user
-        echo json_encode(array("message" => "Unable to create product."));
+        echo json_encode(array("message" => "Unable to create student."));
     }
 }
 
